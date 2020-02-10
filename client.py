@@ -32,7 +32,7 @@ class Client:
             current_index = int(str(s.recv(1024), 'ascii'))
             while self.index.qsize() < current_index:
                 self.index.put('space')
-                print(f'[{timestamp()}] Spacial positions is {self.index.qsize()} at ')
+                print(f'[{timestamp()}] Spacial positions is {self.index.qsize()}')
             while True:
                 response = int(str(s.recv(1024), 'ascii'))
                 if response > self.index.qsize():
