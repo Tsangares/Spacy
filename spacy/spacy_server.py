@@ -1,7 +1,12 @@
+#!/usr/bin/env python3
 import socketserver
 from queue import Queue
 from time import sleep
-from timestamp import timestamp
+from time import sleep,time,strftime,localtime
+def timestamp():
+    style="%a %I:%M:%S %p"
+    return strftime(style,localtime(time()))
+
 
 q=Queue()
 

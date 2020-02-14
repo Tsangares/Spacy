@@ -3,3 +3,6 @@ env/
 *.pyc
 __pycache__/
 \#*#
+dist/
+spacy.egg-info/
+

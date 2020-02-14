@@ -1,0 +1,10 @@
+README.md
+setup.py
+spacey.egg-info/PKG-INFO
+spacey.egg-info/SOURCES.txt
+spacey.egg-info/dependency_links.txt
+spacey.egg-info/requires.txt
+spacey.egg-info/top_level.txt
+spacy/__init__.py
+spacy/spacy_client.py
+spacy/spacy_server.py

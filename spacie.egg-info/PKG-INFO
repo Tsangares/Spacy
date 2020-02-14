@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: spacie
+Version: 0.0.1
+Summary: Space sync app
+Home-page: https://github.com/Tsangares/Spacy
+Author: William Wyatt
+Author-email: tsangares@gmail.com
+License: UNKNOWN
+Description: For spacebar syncing.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
