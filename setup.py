@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="spacie",
-    version="0.0.1",
+    version="0.0.2",
     author="William Wyatt",
     author_email="tsangares@gmail.com",
     description="Space sync app",

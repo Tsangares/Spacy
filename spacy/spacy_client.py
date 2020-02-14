@@ -42,7 +42,8 @@ class Client:
                 response = int(str(s.recv(1024), 'ascii'))
                 if response > int(self.index.qsize()):
                     self.index.put('space')
-                    print(f"[{timestamp()}] Recieved instruction to hit space")
+                    print(f"[{timestamp()}] Recieved insteruction to hit space")
+                    gui.press('space')
                 elif response == int(self.index.qsize()):
                     print(f"[{timestamp()}] Sucessfully emitted a space request")
                 else:

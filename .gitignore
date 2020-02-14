@@ -4,5 +4,5 @@ env/
 __pycache__/
 \#*#
 dist/
-spacy.egg-info/
+spacie.egg-info/
 
