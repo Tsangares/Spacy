@@ -17,7 +17,7 @@ setuptools.setup(
     ],
     install_requires=[
         "MouseInfo==0.1.2",
-        "Pillow==7.0.0",
+        "Pillow==8.3.2",
         "PyAutoGUI==0.9.48",
         "PyGetWindow==0.0.8",
         "PyMsgBox==1.0.7",
